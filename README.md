@@ -10,6 +10,19 @@
 - IAM role(for Container Instance)
 - Datadog API Key(for Datadog Agent)
 
+### checked version
+
+```sh
+$ terraform version
+Terraform v0.6.3
+```
+
+### terraform apply after...
+
+- Run ECS Instance(t2.micro)
+- Run ECS Agent Task
+- Run Datadog Agent Task
+
 ### terraform plan
 
 ```
