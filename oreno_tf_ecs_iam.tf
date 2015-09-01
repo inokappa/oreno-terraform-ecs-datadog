@@ -45,7 +45,8 @@ resource "aws_iam_role_policy" "ecs_iam_role" {
          "ecs:DiscoverPollEndpoint",
          "ecs:Submit*",
          "ecs:Poll",
-         "ecs:StartTask"
+         "ecs:StartTask",
+         "ecs:StartTelemetrySession"
       ],
       "Effect": "Allow",
       "Resource": "*"
